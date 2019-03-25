@@ -2,10 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 // PROPS
-import DemoBlockJson from "./DemoBlock/props.json";
+// import json from "./props.json";
+import json from "./DirectSpeech/props.json";
 
 // COMPONENTS
-import DemoBlock from "./DemoBlock/DemoBlock.js";
+// import DemoBlock from "./DemoBlock/DemoBlock";
+import DirectSpeech from "./DirectSpeech/DirectSpeech";
 
 class App extends React.Component {
   static async getInitialProps() {
@@ -15,14 +17,13 @@ class App extends React.Component {
 
   render() {
     let inlines = {};
-    var json = DemoBlockJson
     Object.keys(json.inlines).map((key, index) => {
       inlines[key] = (
         <span dangerouslySetInnerHTML={{ __html: json.inlines[key] }} />
       );
     });
 
-    return <DemoBlock view={json.view} inlines={inlines} />;
+    return <DirectSpeech view={json.view} inlines={inlines} />;
   }
 }
 
