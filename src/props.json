@@ -1,0 +1,88 @@
+{
+  "view": {
+    "bg": {
+      "key": "bg",
+      "value": false,
+      "items": [
+        {
+          "uuid": "4aae07dd-2367-4c82-9017-20880c93195e",
+          "src": "https://images.pexels.com/photos/1497302/pexels-photo-1497302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "size_small": {
+            "src": "https://images.pexels.com/photos/1497302/pexels-photo-1497302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "width": "600",
+            "height": "400"
+          },
+          "size_medium": false,
+          "size_large": false,
+          "filename": "default",
+          "created": "2019-03-23 12:23:51 UTC+0000"
+        }
+      ],
+      "type": "image"
+    },
+    "price": {
+      "key": "price",
+      "value": 33,
+      "items": false,
+      "type": "integer"
+    },
+    "header": {
+      "key": "header",
+      "value": "<h2>11Это шаблон</h2>",
+      "items": false,
+      "type": "html"
+    },
+    "offers": {
+      "key": "offers",
+      "value": false,
+      "items": [],
+      "type": "related_items"
+    },
+    "pictures": {
+      "key": "pictures",
+      "value": false,
+      "items": [],
+      "type": "gallery"
+    },
+    "subheader": {
+      "key": "subheader",
+      "value": "...",
+      "items": false,
+      "type": "textarea"
+    },
+    "description": {
+      "key": "description",
+      "value": "OKOKOKOKOKOKOKOKOKOKOKOK",
+      "items": false,
+      "type": "textarea"
+    },
+    "gradient_top": {
+      "key": "gradient_top",
+      "value": "rgba(130,127,7,0.86)",
+      "items": false,
+      "type": "color"
+    },
+    "checkboxExample": {
+      "key": "checkboxExample",
+      "value": true,
+      "items": false,
+      "type": "bool"
+    },
+    "gradient_bottom": {
+      "key": "gradient_bottom",
+      "value": "rgba(230,7,7,0.86)",
+      "items": false,
+      "type": "color"
+    },
+    "gradient_middle": {
+      "key": "gradient_middle",
+      "value": "rgba(0,0,0,0.5)",
+      "items": false,
+      "type": "color"
+    }
+  },
+  "inlines": {
+    "header": "<h2>TITLE</h2>",
+    "subheader": "<h3>Subtitle</h3>"
+  }
+}
