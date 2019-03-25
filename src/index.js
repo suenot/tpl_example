@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 // PROPS
-import json from "./props.json";
+import DemoBlockJson from "./DemoBlock/props.json";
 
 // COMPONENTS
-import DemoBlock from "./DemoBlock";
+import DemoBlock from "./DemoBlock/DemoBlock.js";
 
 class App extends React.Component {
   static async getInitialProps() {
@@ -15,6 +15,7 @@ class App extends React.Component {
 
   render() {
     let inlines = {};
+    var json = DemoBlockJson
     Object.keys(json.inlines).map((key, index) => {
       inlines[key] = (
         <span dangerouslySetInnerHTML={{ __html: json.inlines[key] }} />
